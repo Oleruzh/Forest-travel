@@ -6,4 +6,4 @@ Technologies:
 - Pixel Perfect.
 - SEO optimization.
 - Open Graph. Description for social networks.
-- Adaptive layout
+- Adaptive layout.
