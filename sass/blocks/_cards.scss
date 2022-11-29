@@ -1,0 +1,67 @@
+
+a .card-link-wrapper {
+    transition: .3s;
+  }
+  
+  .card-link-wrapper:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cards-row-first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .card-title-wrapper {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #a6a6a6;
+    color: #ffffff;
+  
+    overflow: hidden; /* Если контент выходит за границы блока, overflow: hidden; его скрывает */
+    white-space: nowrap; /* Не переносить слова на следующую линию */
+  }
+  
+  .card-title-wrapper.sand-color {
+    background-color: #c1b19b;
+  }
+  .card-title-wrapper.lake {
+    background-color: #66b0be;
+  }
+  
+  .card-title-wrapper.snow {
+    background-color: #876f56;
+  }
+  
+  .card-title-wrapper.jungles {
+    background-color: #27695e;
+  }
+  
+  .card-title {
+    font-weight: 700;
+    font-size: 28px;
+  
+    text-overflow: ellipsis; /*Определяет параметры видимости текста в блоке, если текст целиком не помещается в заданную область, текст обрезается*/
+    overflow: hidden; /* Если контент выходит за границы блока, overflow: hidden; его скрывает */
+  }
+  
+  .card-4 {
+    width: 670px;
+    height: 365px;
+  }
+  
+  .cards-row-second {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cards-row-second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  

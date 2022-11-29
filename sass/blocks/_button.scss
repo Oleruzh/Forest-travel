@@ -1,0 +1,17 @@
+
+.button {
+    display: inline-block;
+    height: 50px;
+    padding: 12px 40px;
+    background-color: #0ac883;
+    box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
+    border-radius: 50px;
+  
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 12px;
+    color: #ffffff;
+  
+    transition: background-color 0.2s ease-in, color 0.2s ease-in,
+      border 0.2s ease-in;
+  }

@@ -1,0 +1,47 @@
+
+.radio-row {
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .radio-row:last-child {
+    margin-bottom: 0;
+  
+  }
+  
+  .real-radio {
+    /* Для скрытия реальной радио кнопки */
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    appearance: none;
+  }
+  
+  .custom-radio {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border: 1px solid #c0c0c0;
+    border-radius: 50%;
+  }
+  .custom-radio::before {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -50%);
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #2ab698;
+    border-radius: 50%;
+  }
+  .real-radio:checked + .custom-radio::before {
+    display: block;
+  }

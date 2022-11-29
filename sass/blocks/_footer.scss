@@ -1,0 +1,93 @@
+.footer {
+    margin-top: auto; /* sticky footer */
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background-color: #265847;
+    color: #ffffff;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a .footer-nav-list-link {
+    transition: .3s;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-widjet-wrapper {
+    display: flex;
+    padding-top: 10px;
+  }
+  
+  .footer-copyright {
+    width: 270px;
+  }
+  
+  .footer .logo {
+    margin-bottom: 26px;
+  }
+  
+  .footer-copyright p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .footer-widget {
+    font-size: 18px;
+  }
+  
+  .footer-nav-list-link:hover {
+    color: rgb(250, 239, 135);
+    text-shadow: #fff16a 5px 0 5px;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in,
+      border 0.3s ease-in;
+  }
+  
+  .footer-widget-info {
+    width: 170px;
+  }
+  
+  .footer-widget-services,
+  .footer-widget-contacts {
+    width: 270px;
+  }
+  
+  .footer-widget + .footer-widget {
+    margin-left: 30px;
+  }
+  
+  .footer-widget p {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .footer-widget-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .footer-widget-list {
+    font-size: 18px;
+  }
+  
+  .footer-widget-list li {
+    margin-bottom: 15px;
+  }
+  
+  /*inner-page-tours*/
+  
+  .inner-page-tours-header {
+    margin-bottom: 60px;
+    text-align: center;
+  }

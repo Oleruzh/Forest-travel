@@ -1,0 +1,106 @@
+
+.header {
+    position: relative; /* для header-content чтобы блок мог рости вверх, низ при добавлении текста*/
+    height: 800px;
+    padding-top: 50px; /*универсальный отступ от шапки*/
+    background-color: #265847;
+    background-image: url("./../img/header/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url(./../img/header/header-small-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+  }
+  
+  
+  .header-nav {
+    font-size: 22px;
+  }
+  
+  .header-nav-button {
+    display: none;
+  }
+  
+  .header-nav-list {
+    display: flex;
+  }
+  
+  .header-nav-list-item:not(:last-child) {
+    /*Обнуляем отступ у последней ссылки :not(:last-child)*/
+    margin-right: 50px;
+  }
+  
+  .header-nav-list-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  .header-nav-list-link:hover {
+    color: rgb(250, 239, 135);
+    text-shadow: #fff16a 2px 0 5px;
+  }
+  
+  .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    width: 1170px;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  
+  .header-content p {
+    font-size: 24px;
+  }
+  
+  .header-scroll {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    display: inline-block; /* Для работы высоты и ширины */
+    padding-bottom: 34px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .header-scroll::after {
+    /* СТРЕЛКА СКРОЛЛ */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    content: ""; /* для отображения элемента (стрелки)*/
+    display: block; /*Для работы высоты и ширины*/
+    width: 24px;
+    height: 24px;
+    background-image: url("./../img/header/arrow-down.svg");
+  }  

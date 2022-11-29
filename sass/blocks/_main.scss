@@ -1,0 +1,62 @@
+.main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  
+    color: #31405b;
+  }
+  
+  
+  .main-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  
+  .main-row:nth-child(even) {
+    /* :nth-child(even) Позволяет дублировать ряды, направление для каждого четного ряда будет обратным*/
+    flex-direction: row-reverse;
+  }
+  
+  .main-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  .main-content {
+    width: 470px;
+  }
+  
+  .main-content-header {
+    margin-bottom: 20px;
+  }
+  
+  .main-content-text {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  .main-content-text p {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .main-content-text a {
+    text-decoration: underline;
+    color: #138ece;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: rgba(76, 76, 243, 0.8);
+  }
+  
+  .button:active {
+    position: relative;
+    top: 2px;
+    background-color: #444444;
+  }
+  
+  .main-img {
+    width: 570px;
+  }
+  

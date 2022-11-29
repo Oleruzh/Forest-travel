@@ -1,0 +1,207 @@
+
+@media (max-width: 1199px) {
+
+    .inner-page {
+      width: 100%;
+      padding-top: 60px;
+    padding-bottom: 60px;
+    }
+  
+    .container {
+      width: 900px;
+    }
+    
+    .header {
+      height: 591px;
+    }
+  
+    .header-top {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .header-content {
+      width: 900px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .header-nav-button {
+      display: block;
+    }
+  
+    .header-nav-list {
+      display: none;
+    }
+  
+    .header-title {
+      font-size: 52px;
+    }
+  
+    .header-scroll {
+      font-size: 0; /*  Скрывает текст на экране */
+    }
+  
+    /* MAIN */
+  .main {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+  
+    .inner-page-article {
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+  
+    .inner-page-contacts {
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+  
+  .inner-page-tours-header {
+      margin-bottom: 40px;
+    }
+  
+  .main-row {
+      margin-bottom: 80px;
+    }
+  
+  .main-content {
+      width: 420px;
+    }
+  
+  
+  .main-img {
+      width: 420px;
+    }
+  
+  .main-header {
+      font-size: 50px;
+      line-height: 1;
+    }
+  
+  
+  .main-content-text {
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+    
+  .card-title {
+    font-size: 24px;
+  }
+  
+  .cards-row-first {
+    column-gap: 30px;
+  }
+  
+  .cards-row-second {
+    column-gap: 30px;
+  }
+  
+  .card-title-wrapper {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .cards-row-second-column img {
+    width: 495px;
+    height: 210px;
+    object-fit: cover;
+  }
+  
+  .jungles-img {
+    width: 345px;
+    height: 510px;
+    object-fit: cover;
+  }
+  
+  
+  .article-page-article {
+    width: 570px;
+  }
+  
+  .article-page-nav-list {
+    font-size: 18px;
+  }
+  
+  .article-page-article h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .article-page-article p {
+    font-size: 18px;
+  }
+  
+  .article-page-article img {
+    margin: 30px 0;
+  }
+  
+  /*Contact*/
+  
+  .contact-block-title {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  .contact-block-body {
+    font-size: 18px;
+  }
+  
+  .contact-block + .contact-block .contact-block-body {
+    width: 420px;
+    height: 310px;
+  }
+  
+  .contact-info {
+      width: 100%;
+      display: flex;
+      align-items: baseline;;
+  }
+  
+  .contact-row {
+    flex-direction: column;
+    align-items: flex-start;
+  } 
+  
+  .contact-block + .contact-block {
+    margin-top: 0px;
+    margin-left: auto;
+  }
+  
+  .form {
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+    /* FOTER */
+  
+    .footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .footer-widget-services {
+      display: none; /*  скрыть колонку */
+    }
+  
+    .footer-copyright .logo {
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+  
+    .footer-copyright p {
+      font-size: 14px;
+    }
+  
+    .footer-widget-title {
+      margin-bottom: 20px;
+    }
+  
+    .footer-widget + .footer-widget {
+      margin-left: 55px;
+    }
+  
+  }

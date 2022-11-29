@@ -1,0 +1,72 @@
+
+.contacts-header {
+    margin-bottom: 40px;
+  }
+  
+  .contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-info {
+    width: 470px;
+  }
+  
+  /* Обращаемся к соседнему с лева contact-block что-бы дать отступ вверх. Для оптимизации контроля отступов*/
+  .contact-block + .contact-block {
+    margin-top: 40px;
+  }
+  
+  .contact-block + .contact-block .contact-block-body {
+    width: 470px;
+    height: 345px;
+  }
+  
+  .contact-block-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #31405b;
+  }
+  
+  .contact-block-body {
+    font-size: 20px;
+  }
+  
+  .contact-block-body a {
+    color: #138ece;
+    text-decoration: none;
+  }
+  
+  .contact-block-body p {
+    margin-bottom: 25px;
+  }
+  .contact-block-body p:last-child {
+    margin-bottom: 0;
+  }
+  .contact-list-icon {
+    position: relative;
+    padding-left: 39px;
+  }
+  .contact-list-icon::before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    content: "";
+    width: 24px;
+    height: 25px;
+  }
+  
+  .contact-list-icon.phone::before {
+    background-image: url("./../img/contacts/phone.svg");
+  }
+  
+  .contact-list-icon.mail::before {
+    background-image: url("./..//img/contacts/mail.svg");
+  }
+  
+  .contact-list-icon.address::before {
+    background-image: url("./../img/contacts/map-pin.svg");
+  }
+  

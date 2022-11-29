@@ -1,0 +1,87 @@
+
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap");
+
+html {
+    height: 100%; /* sticky footer */
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    height: 100%; /* sticky footer */
+    display: flex; /* sticky footer */
+    flex-direction: column; /* sticky footer */
+    font-family: "PT Sans", sans-serif;
+    color: #31405b;
+  }
+  
+  body > * {
+    flex-shrink: 0; /* sticky footer */ /* Чтобы текст внутри контейнеров не сжимался*/
+  }
+  
+  input {
+    font-family: "PT Sans", sans-serif;
+    color: #31405b;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  legend {
+    width: 100%;
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  label {
+    cursor: pointer;
+  }
+
+  .bgcolor {
+    background-color: #f2f8f6;
+  }
+  
+  .main-header {
+    font-weight: 700;
+    font-size: 54px;
+    color: #31405b;
+  }
+  
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .inner-page {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  .inner-page-contacts {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  
+  .inner-page-article {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
